@@ -1,0 +1,23 @@
+/*-------------
+[Master Stylesheet]
+
+Project:        Zoonx MultiPurpose HTML5 Template
+Version:        1.0
+Last change:    08.11.2017
+Primary use:    Multipurpose Single Page Template
+Author:         99design
+*/
+@import "bootstrap.min.css";
+@import "font-awesome.min.css";
+@import "animate.css";
+@import "bootsnav.css";
+@import "owl.carousel.min.css";
+
+
+@import "cubeportfolio.min.css";
+@import "jquery.fancybox.css";
+@import "settings.css";
+/*@import "right-nav.css";
+@import "nav-13.css";*/
+@import "style.css";
+

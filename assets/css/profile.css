@@ -1,0 +1,23 @@
+.control-label {
+	color: white;
+	text-align: left !important;
+	margin-left: 60px;
+}
+
+.profile-title {
+	color: beige;
+	font-family: 'Audiowide', cursive;
+	padding-bottom: 15px;
+}
+.display-profile {
+	visibility: hidden;
+}
+.display-none {
+	display: none;
+}
+
+.alert-info {
+	color: beige !important;
+	background-color: #134154 !important;
+	border-color: #134154 !important;
+}

@@ -1,0 +1,10 @@
+.avatar-upload {
+	margin-left: 40px;
+	padding-bottom: 5px;
+}
+.display-profile {
+	visibility: hidden;
+}
+.display-none {
+	display: none;
+}

@@ -1,0 +1,141 @@
+#writeup1 {
+	color: beige;
+	font-size: 45px;
+	font-family: Chewy;
+    /*position: absolute; color:#FE8804;*/
+    text-align: center !important;
+    padding-bottom: 20px;
+}
+.logo.logo-display {
+    display: none !important;
+}
+.logo.logo-scrolled {
+    visibility: hidden;
+
+}
+#myNavbar {
+    background: none !important;
+}
+
+html, body {
+    background-color: black !important;
+    background-image: url("/vyuh/assets/images/vyuh-logo.jpg");
+    background-repeat: no-repeat, repeat;
+    position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #writeup1 {
+        font-size: 25px;
+    }
+}
+.navbar {
+	background-color: none !important;
+}
+
+#header {
+    padding-bottom: 0px !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+  line-height: 2em;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  color: dodgerblue;
+}
+
+#login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+button {
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: none;
+  color: #fff;
+  padding: 14px 21px;
+  font-weight: bolder;
+  font-size: 0.8em;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+button:hover {
+  background: #fff;
+  color: dodgerblue;
+}
+
+.description {
+  text-align: center;
+}
+
+.benefits {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  list-style: none;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  margin: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px;
+  align-items: flex-end;
+}
+
+.benefits li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  text-align: center;
+  padding: 21px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+}
+
+.benefits i {
+  font-size: 2.2em;
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .desktop {
+    display: block;
+  }
+
+}

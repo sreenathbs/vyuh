@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Mar, 2018, 5:46:12 PM
+    Author     : sreehari
+*/
+.wrap h1 {
+    font-family: 'Audiowide', cursive;
+}
+.wrap p {
+  padding-top: 10px;
+  color: beige !important;
+  font-family: 'Chewy', cursive;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Chewy', cursive;
+  font-size: 1.6em;
+  line-height: 1.5;
+}*/
+
+h1 {
+  color: #FE8804;
+  text-align: center;
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrap {
+  margin-top : -40px !important;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 0 0 2em;
+}
+
+.mascot {
+  margin: 0 auto;
+  display: block;
+}
+
+.form {
+  margin: 1em 0 0;
+}
+
+.input {
+  text-align: center;
+  -webkit-appearance: none;
+  display: block;
+  width: 65%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  border: solid 6px black;
+}
+
+.button {
+  border: none;
+  background: #0074B1;
+  display: block;
+  width: 30%;
+  padding: 0 1em;
+  font: inherit;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5em;
+  line-height: 2;
+  text-decoration: none;
+  text-align: center;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.non-pm {
+  display: -webkit-flex !important;
+  width: 98%;
+}
+.pm {
+    width: 98%;
+    margin-left: 1%;
+    outline: none !important;
+}
+.pm input {
+    width: 65%;
+}
+.non-pm button{
+    background: wheat;
+    color: blue;
+    outline: none !important;
+    width: 35%;
+    padding: 0;
+}
+
+

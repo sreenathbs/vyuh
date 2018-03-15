@@ -1,0 +1,159 @@
+@import url("https://cdn.rawgit.com/wiseguy12851/OpenAssets/master/fonts/icomoon/style.css");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+.viewport {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.viewport {
+  -webkit-box-orient: vertical;
+  -o-box-orient: vertical;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.viewport .stack {
+  position: relative;
+  font-size: 200px;
+  color: #389ab9;
+  text-shadow: 0 0 15px #389ab9;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-animation-name: swayVertically;
+  animation-name: swayVertically;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+.viewport .stack > span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  line-height: 200px;
+}
+.viewport .stack > span.smaller {
+  font-size: 100px;
+}
+.viewport .shadow {
+  width: 10px;
+  height: 5px;
+  -webkit-box-shadow: 0 0 10px 2px #389ab9;
+  box-shadow: 0 0 10px 2px #389ab9;
+  background-color: rgba(56,154,185,0.6);
+  margin-top: 20px;
+}
+.viewport .text {
+  margin-bottom: 60px;
+  font-size: 50px;
+  color: #389ab9;
+  text-shadow: 0 0 10px;
+  font-family: 'Comfortaa', cursive;
+}
+.spin-forward,
+.spin-backwards {
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+.spin-backwards {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+}
+#copyright {
+  margin-top: 25px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #b3b3b3;
+  text-align: center;
+}
+#copyright div {
+  margin-bottom: 10px;
+}
+#copyright a,
+#copyright a:link {
+  color: #808080;
+  text-decoration: none;
+  border-bottom: 1px solid #808080;
+  padding-bottom: 2px;
+}
+#copyright a:active {
+  color: #b3b3b3;
+}
+#copyright a:hover {
+  color: #b3b3b3;
+  border-bottom: 1px solid #b3b3b3;
+  padding-bottom: 4px;
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes swayVertically {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -50px;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes swayVertically {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -50px;
+  }
+  100% {
+    top: 0;
+  }
+}
